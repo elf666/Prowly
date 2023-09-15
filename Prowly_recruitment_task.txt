@@ -1,0 +1,47 @@
+Prepare 3 test cases for the following scenarios (select the "most interesting" cases in your opinion):
+A) Searching for "prowly" on google.com, filtering by content category (everything, video, news, etc.).
+B) Searching for the word "prowly" on google.com with filtering by date.
+
+
+
+SCENARIO A: Searching for "prowly" on google.com, filtering by content category.
+
+	Test Case 1: News Category Filtering (english only)
+
+    		Test Description: Perform a search for "prowly" on google.com and filter the results by content category, selecting the "News" category.
+				  Set "only polish" and then go to URL address line and look for 'lr=lang_pl' and replace 'pl' with 'en'
+				  (ensuring that you have prefered language in your browser set to polish by default).
+    		Expected outcome: Verify that the search results only display news articles related to "prowly" in english.
+
+	Test Case 2: Image Category Filtering (with license only)
+
+    		Test Description: Conduct a search for "prowly" on google.com and filter the results by content category, choosing the "Images" category.
+				  Open "Tools" and select "Usage rights" and select "commercial & other licenses".
+     		Expected outcome: Confirm that the search results exclusively show images related to "prowly" with commercial or other licenses.
+
+	Test Case 3: Video Category Filtering (high quality shorts)
+
+    		Test Description: Initiate a search for "prowly" on google.com and filter the results by content category, choosing "video" category.
+				  In Tools menu select short(0-4 min) and High quality.		  
+    		Expected outcome: Ensure that the search results is narrowed to only short and high quality videos.
+
+
+
+SCENARIO B: Searching for the word "prowly" on google.com with filtering by date.
+
+
+	Test Case 1: Last 24 hours
+
+    		Test Description: Initiate a search for "prowly" on google.com and filter the results by date, select "past 24 hours".
+    		Expected outcome: Ensure that the search results include content related to "prowly" published last 24 hours.
+
+	Test Case 2: Company founding date
+
+    		Test Description: Conduct a search for "prowly" on google.com and filter the results by date, select custom date range: 12.11.2013 - 11.12.2013.
+    		Expected outcome: Verify that the search results exclusively display content related to "prowly" published within one month after founding company.
+
+	Test Case 3: Joining SEMrush announcement date
+
+    		Test Description: Perform a search for "prowly" on google.com and filter the results by date, select custom date 16.09.2020 - 16.09.2020.
+    		Expected outcome: Confirm that the search results include content about "prowly" published within one month after joining SEMrush.
+
